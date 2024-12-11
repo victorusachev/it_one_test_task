@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "it-one-test-task"
+version = "0.1.0"
+description = "Test task for IT_ONE"
+authors = ["Victor Usachev <usachev-1991@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "it_one_test_task", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
