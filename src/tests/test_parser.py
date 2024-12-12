@@ -1,6 +1,6 @@
 import pytest
 
-from it_one_test_task.log_parser import parse_mail_log_entry, parse_mail_log_id_value
+from it_one_test_task.services.parser import parse_mail_log_entry, parse_mail_log_id_value
 from tests.utils import get_test_json
 
 
