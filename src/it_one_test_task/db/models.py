@@ -39,5 +39,5 @@ class Log(CommonColumnsMixin, Base):
     )
 
     __mapper_args__ = {
-        'primary_key': ['created', 'int_id']
+        'primary_key': ['created', 'int_id', 'address', 'str']
     }
