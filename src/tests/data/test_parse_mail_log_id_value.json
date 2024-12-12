@@ -1,0 +1,20 @@
+[
+  ["2012-02-13 14:39:22 1RwtJa-000AFB-07 => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router", null],
+  ["2012-02-13 14:39:22 1RwtJa-000AFB-07 Completed", null],
+  [
+    "2012-02-13 14:39:22 1RookS-000Pg8-VO == udbbwscdnbegrmloghuf@london.com R=dnslookup T=remote_smtp defer (-44): SMTP error from remote mail server after RCPT TO:<udbbwscdnbegrmloghuf@london.com>: host mx0.gmx.com [74.208.5.90]: 450 4.3.2 Too many mails (mail bomb), try again in 1 hour(s) 25 minute(s) and see ( http://portal.gmx.net/serverrules ) {mx-us011}",
+    null
+  ],
+  [
+    "2012-02-13 14:41:26 1RwtJy-0009RI-9W => bxxmbild@msm.ru R=dnslookup T=remote_smtp H=tempo.di-net.ru [213.248.12.5] X=TLSv1:AES256-SHA:256 C=\"250 OK id=1RwtLa-0007xp-9a\"",
+    null
+  ],
+  [
+      "2012-02-13 14:39:22 1RwtJa-0009RI-2d <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1289 id=120213143629.COM_FM_END.205359@whois.somehost.ru",
+     "120213143629.COM_FM_END.205359@whois.somehost.ru"
+  ],
+  [
+    "2012-02-13 14:41:06 1RwtLG-000M0q-UZ <= ysxeuila@rushost.ru H=rtmail.rushost.ru [109.72012-02-13 14:41:06 1RwtLG-000M0q-UZ <= ysxeuila@rushost.ru H=rtmail.rushost.ru [109.70.26.4] P=esmtp S=2291 id=rt-3.8.8-21162-1329129666-656.3913218-6-0@rushost.ru0.26.4] P=esmtp S=2291 id=rt-3.8.8-21162-1329129666-656.3913218-6-0@rushost.ru",
+    "rt-3.8.8-21162-1329129666-656.3913218-6-0@rushost.ru"
+  ]
+]

@@ -1,0 +1,102 @@
+[
+  [
+    "2012-02-13 14:39:22 1RwtJa-000AFB-07 => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router",
+    {
+      "created": "2012-02-13T14:39:22",
+      "flag": "=>",
+      "int_id": "1RwtJa-000AFB-07",
+      "str": "1RwtJa-000AFB-07 => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router",
+      "address": null
+      }
+  ],
+  [
+    "2012-02-13 14:39:22 1RwtJa-000AFB-07 Completed",
+    {
+      "created": "2012-02-13T14:39:22",
+      "flag": null,
+      "int_id": "1RwtJa-000AFB-07",
+      "str": "1RwtJa-000AFB-07 Completed",
+      "address": null
+    }
+  ],
+  [
+    "2012-02-13 14:39:22 1RookS-000Pg8-VO ** fwxvparobkymnbyemevz@london.com: retry timeout exceeded",
+    {
+      "created": "2012-02-13T14:39:22",
+      "flag": "**",
+      "int_id": "1RookS-000Pg8-VO",
+      "str": "1RookS-000Pg8-VO ** fwxvparobkymnbyemevz@london.com: retry timeout exceeded",
+      "address": "fwxvparobkymnbyemevz@london.com"
+    }
+  ],
+  [
+    "2012-02-13 14:39:22 1RookS-000Pg8-VO == udbbwscdnbegrmloghuf@london.com R=dnslookup T=remote_smtp defer (-44): SMTP error from remote mail server after RCPT TO:<udbbwscdnbegrmloghuf@london.com>: host mx0.gmx.com [74.208.5.90]: 450 4.3.2 Too many mails (mail bomb), try again in 1 hour(s) 25 minute(s) and see ( http://portal.gmx.net/serverrules ) {mx-us011}",
+    {
+      "created": "2012-02-13T14:39:22",
+      "flag": "==",
+      "int_id": "1RookS-000Pg8-VO",
+      "str": "1RookS-000Pg8-VO == udbbwscdnbegrmloghuf@london.com R=dnslookup T=remote_smtp defer (-44): SMTP error from remote mail server after RCPT TO:<udbbwscdnbegrmloghuf@london.com>: host mx0.gmx.com [74.208.5.90]: 450 4.3.2 Too many mails (mail bomb), try again in 1 hour(s) 25 minute(s) and see ( http://portal.gmx.net/serverrules ) {mx-us011}",
+      "address": "udbbwscdnbegrmloghuf@london.com"
+    }
+  ],
+  [
+    "2012-02-13 14:39:22 1RwtJa-0009RI-2d <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1289 id=120213143629.COM_FM_END.205359@whois.somehost.ru",
+    {
+      "created": "2012-02-13T14:39:22",
+      "flag": "<=",
+      "int_id": "1RwtJa-0009RI-2d",
+      "str": "1RwtJa-0009RI-2d <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1289 id=120213143629.COM_FM_END.205359@whois.somehost.ru",
+      "id": "120213143629.COM_FM_END.205359@whois.somehost.ru"
+    }
+  ],
+  [
+    "2012-02-13 14:39:22 1RwtJa-000AFJ-3B <= <> R=1RookS-000Pg8-VO U=mailnull P=local S=3958",
+    {
+      "created": "2012-02-13T14:39:22",
+      "flag": "<=",
+      "int_id": "1RwtJa-000AFJ-3B",
+      "str": "1RwtJa-000AFJ-3B <= <> R=1RookS-000Pg8-VO U=mailnull P=local S=3958",
+      "id": null
+    }
+  ],
+  [
+    "2012-02-13 14:39:24 1RvhTH-000B9y-TD giaterran.bir.ru [194.85.61.78] Operation timed out",
+    {
+      "created": "2012-02-13T14:39:24",
+      "flag": null,
+      "int_id": "1RvhTH-000B9y-TD",
+      "str": "1RvhTH-000B9y-TD giaterran.bir.ru [194.85.61.78] Operation timed out",
+      "address": null
+    }
+  ],
+  [
+    "2012-02-13 14:39:57 1RwtJv-0009RI-9N SMTP error from remote mail server after RCPT TO:<eqkhojhkgag@rambler.ru>: host imx1.rambler.ru [81.19.66.235]: 451 4.7.1 Rate limit exceeded",
+    {
+      "created": "2012-02-13T14:39:57",
+      "flag": null,
+      "int_id": "1RwtJv-0009RI-9N",
+      "str": "1RwtJv-0009RI-9N SMTP error from remote mail server after RCPT TO:<eqkhojhkgag@rambler.ru>: host imx1.rambler.ru [81.19.66.235]: 451 4.7.1 Rate limit exceeded",
+      "address": null
+    }
+  ],
+  [
+    "2012-02-13 14:39:58 SMTP connection from [109.70.26.4] (TCP/IP connection count = 1)",
+    {
+      "created": "2012-02-13T14:39:58",
+      "flag": null,
+      "int_id": null,
+      "str": "SMTP connection from [109.70.26.4] (TCP/IP connection count = 1)",
+      "address": null
+    }
+  ],
+  [
+    "2012-02-13 14:41:56 SMTP connection from rtmail.rushost.ru [109.70.26.4] closed by QUIT",
+    {
+      "created": "2012-02-13T14:41:56",
+      "flag": null,
+      "int_id": null,
+      "str": "SMTP connection from rtmail.rushost.ru [109.70.26.4] closed by QUIT",
+      "address": null
+    }
+  ]
+]
