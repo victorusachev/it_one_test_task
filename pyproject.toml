@@ -8,6 +8,8 @@ packages = [{include = "it_one_test_task", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
 
 
 [tool.poetry.group.dev.dependencies]
