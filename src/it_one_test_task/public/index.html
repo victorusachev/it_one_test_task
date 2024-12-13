@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <label for="email">Введите адрес электронной почты для поиска логов:</label><br>
+      <input type="text" id="email" name="email">
+      <input type="button" value="Поиск" onclick="send()">
+      <p id="resp"></p>
+      <script>
+         function send() {
+            var resp = document.getElementById("resp");
+            const email = document.getElementById("email").value;
+            var formData = new FormData();
+            formData.append("email", email);
+
+            fetch('/search', {
+                  method: 'POST',
+                  body: formData,
+               })
+               .then(response => response.json())
+               .then(data => {
+                  resp.innerHTML = "";
+
+                  var items = data.items;
+                  var hasMore = data.hasMore;
+
+                  if (items && items.length > 0) {
+                     var ul = document.createElement("ul");
+                     items.forEach(item => {
+                        var li = document.createElement("li");
+                        li.textContent = item;
+                        ul.appendChild(li);
+                     });
+                     resp.appendChild(ul);
+                  } else {
+                     resp.innerHTML = "Нет записей для отображения";
+                  }
+
+                  if (hasMore) {
+                     var countText = document.createElement("p");
+                     countText.textContent = "Найдено более 100 записей";
+                     resp.appendChild(countText);
+                  }
+
+               })
+               .catch(error => {
+                  console.error(error);
+                  resp.innerHTML = "Произошла ошибка при загрузке данных";
+               });
+         }
+      </script>
+   </body>
+</html>
