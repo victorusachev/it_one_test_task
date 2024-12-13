@@ -28,8 +28,14 @@ class DatabaseSettings(BaseModel):
         )
 
 
+class WebSettings(BaseModel):
+    host: str = Field(..., description='Web server host address.')
+    port: int = Field(..., description='Web server port number.')
+
+
 class Settings(BaseSettings):
     db: DatabaseSettings = Field(default_factory=DatabaseSettings)
+    web: WebSettings = Field(default_factory=WebSettings)
     logfile_path: FilePath = Field(..., description='Path to log file.')
 
     model_config = SettingsConfigDict(
